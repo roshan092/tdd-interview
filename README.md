@@ -8,3 +8,4 @@ Test project for tdd interview
 3. Step: Change the server port to 8081.
 4. Step: Write a TDD UserNameService to take first and last name, concatenate them and convert to upper case. 
 It should return blank when either first or last name is not passed. Follow coding guidelines.
+5. Step: Fix the broken application by looking at the error message.
