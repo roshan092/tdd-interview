@@ -11,7 +11,7 @@ public class UserNameServiceTest {
 
     @Before
     public void setUp() {
-        userNameService = new UserNameService();
+        userNameService = new UserNameService(null);
     }
 
     @Test
