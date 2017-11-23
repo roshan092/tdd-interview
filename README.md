@@ -1,3 +1,7 @@
-# tdd-interview
+# Interview
 Test project for tdd interview
-Step1: Download the base project
+1. Step: Download the base project
+2. Step: Implement the below service
+
+        GET /hello giving response {"name":"Roshan","message":"Good Morning"}
+
