@@ -6,3 +6,5 @@ Test project for tdd interview
         GET /hello giving response {"name":"Roshan","message":"Good Morning"}
 
 3. Step: Change the server port to 8081.
+4. Step: Write a TDD UserNameService to take first and last name, concatenate them and convert to upper case. 
+It should return blank when either first or last name is not passed. Follow coding guidelines.
