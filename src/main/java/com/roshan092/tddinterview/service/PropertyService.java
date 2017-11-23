@@ -9,15 +9,14 @@ public class PropertyService {
     private Integer propertyId;
 
     public PropertyData getPropertyData(Integer propertyId) {
-        this.propertyId = propertyId;
-        validateProperty();
-        return propertyRepository.getPropertyDetails(this.propertyId);
+        validateProperty(propertyId);
+        return propertyRepository.getPropertyDetails(propertyId);
     }
 
-    private void validateProperty() {
-        if (this.propertyId == null) {
+    private void validateProperty(Integer propertyId) {
+        if (propertyId == null) {
             throw new RuntimeException("Property Id id null");
-        } else if (this.propertyId == 0) {
+        } else if (propertyId == 0) {
             throw new RuntimeException("Property Id id invalid");
         }
     }
